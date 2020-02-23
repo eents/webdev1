@@ -1,9 +1,52 @@
 body {
-    font-size: 22px;
-    background-color: burlywood;
-    color: black;
+    background-color: rgb(247, 238, 228);
+    color: rgb(49, 49, 49);
 }
 
-.site-header {
-    font-size: 30px;
+#home-button {
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+    color: rgb(49, 49, 49);
+    position: sticky;
+    width: 150px;
+    height: 33px;
+    font-size: 22px;
+    margin: 3px;
+    border: 3px solid rgb(49, 49, 49);
+    background-color: rgb(247, 236, 222);
+}
+
+#assignments-button {
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+    color: rgb(49, 49, 49);
+    position: sticky;
+    width: 150px;
+    height: 33px;
+    font-size: 22px;
+    margin: 3px;
+    border: 3px solid rgb(49, 49, 49);
+    background-color: rgb(247, 236, 222);
+}
+
+#about-button {
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+    color: rgb(49, 49, 49);
+    position: sticky;
+    width: 150px;
+    height: 33px;
+    font-size: 22px;
+    margin: 3px;
+    border: 3px solid rgb(49, 49, 49);
+    background-color: rgb(247, 236, 222);
+}
+
+#about-space {
+    position: fixed;
+    top: 75px;
+    left: 380px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
 }
