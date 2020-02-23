@@ -1,16 +1,76 @@
 /* GENERAL */
 
 body {
-    background-color: rgb(247, 238, 228);
-    color: rgb(49, 49, 49);
+    background-color: #12081A;
+    color: #804A6E;
 }
 
 /* HOME */
 
 #temp-home-asset-1 {
     position: fixed;
-    top: 77px;
+    top: 55px;
     left: 707px;
+}
+
+#temp-home-asset-2{
+    position: fixed;
+    top: 400px;
+    right: 644px;
+}
+
+#temp-home-asset-3{
+    position: fixed;
+    bottom: 333px;
+    left: 17px;
+    z-index: -2;
+}
+
+#temp-home-asset-4{
+    position: fixed;
+    left: 0px;
+    top: 175px;
+    z-index: -1;
+}
+
+#temp-home-asset-5{
+    position: fixed;
+    left: 870px;
+    bottom: 660px;
+    z-index: -1;
+}
+
+#temp-home-asset-6{
+    position: fixed;
+    left: 444px;
+    top: 282px;
+    z-index: -1;
+}
+
+#temp-home-asset-7{
+    position: fixed;
+    left: 545px;
+    top: 367px;
+    z-index: -1;
+}
+
+#temp-home-asset-8{
+    position: fixed;
+    bottom: 0px;
+    right: 1011px;
+}
+
+#temp-home-asset-9{
+    position: fixed;
+    left: 380px;
+    bottom: 440px;
+}
+
+#temp-home-asset-10{
+    position: fixed;
+    top: 211px;
+    left: 255px;
+    z-index: -3;
 }
 
 /* MENU */
@@ -18,40 +78,40 @@ body {
 #home-button {
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
-    color: rgb(49, 49, 49);
+    color: #804A6E;
     position: sticky;
     width: 150px;
     height: 33px;
     font-size: 22px;
     margin: 3px;
-    border: 3px solid rgb(49, 49, 49);
-    background-color: rgb(247, 236, 222);
+    border: 3px solid #804A6E;
+    background-color: #12081A;
 }
 
 #assignments-button {
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
-    color: rgb(49, 49, 49);
+    color: #804A6E;
     position: sticky;
     width: 150px;
     height: 33px;
     font-size: 22px;
     margin: 3px;
-    border: 3px solid rgb(49, 49, 49);
-    background-color: rgb(247, 236, 222);
+    border: 3px solid #804A6E;
+    background-color: #12081A;
 }
 
 #about-button {
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
-    color: rgb(49, 49, 49);
+    color: #804A6E;
     position: sticky;
     width: 150px;
     height: 33px;
     font-size: 22px;
     margin: 3px;
-    border: 3px solid rgb(49, 49, 49);
-    background-color: rgb(247, 236, 222);
+    border: 3px solid #804A6E;
+    background-color: #12081A;
 }
 
 /* ABOUT */
@@ -62,7 +122,7 @@ body {
     left: 380px;
     width: 500px;
     height: 500px;
-    background-color: white;
+    background-color: #574F7D;
 }
 
 #about-text-1 {
@@ -71,6 +131,7 @@ body {
     left: 610px;
     font-family: 'Simonetta', 'Sans-Serif';
     font-weight: 900;
+    color: #12081A;
 }
 
 #about-text-2 {
@@ -80,12 +141,27 @@ body {
     left: 445px;
     font-family: 'Simonetta', 'Sans-Serif';
     font-weight: 400;
+    color: #12081A;
 }
 
 #about-photo {
     position: fixed;
     top: 250px;
     left: 495px;
+}
+
+#temp-about-asset-1 {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+#temp-about-asset-2 {
+    position: fixed;
+    right: 5px;
+    top: 100px;
+    z-index: -1;
 }
 
 /* ASSIGNMENTS */
@@ -96,8 +172,8 @@ body {
     width: 125px;
     top: 40px;
     left: 550px;
-    background-color: white;
-    border: 1px solid rgb(49, 49, 49);
+    background-color: #12081A;
+    border: 1px solid #804A6E;
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
 }
@@ -108,8 +184,8 @@ body {
     width: 125px;
     top: 80px;
     left: 550px;
-    background-color: white;
-    border: 1px solid rgb(49, 49, 49);
+    background-color: #12081A;
+    border: 1px solid #804A6E;
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
 }
@@ -120,8 +196,8 @@ body {
     width: 125px;
     top: 120px;
     left: 550px;
-    background-color: white;
-    border: 1px solid rgb(49, 49, 49);
+    background-color: #12081A;
+    border: 1px solid #804A6E;
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
 }
@@ -132,10 +208,35 @@ body {
     width: 125px;
     top: 160px;
     left: 550px;
-    background-color: white;
-    border: 1px solid rgb(49, 49, 49);
+    background-color: #12081A;
+    border: 1px solid #804A6E;
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
+}
+
+#temp-assignments-asset-1 {
+    position: fixed;
+    top: 140px;
+    right: 500px;
+    z-index: -1;
+}
+
+#temp-assignments-asset-2 {
+    position: fixed;
+    right: 33px;
+    bottom: 565px;
+}
+
+#temp-assignments-asset-3 {
+    position: fixed;
+    right: 33px;
+    bottom: 315px;
+}
+
+#temp-assignments-asset-4 {
+    position: fixed;
+    right: 33px;
+    bottom: 65px;
 }
 
 /* ASSIGNMENT 02 */
@@ -146,8 +247,8 @@ body {
     width: 125px;
     top: 40px;
     left: 550px;
-    background-color: white;
-    border: 1px solid rgb(49, 49, 49);
+    background-color: #12081A;
+    border: 1px solid #804A6E;
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
 }
@@ -158,8 +259,8 @@ body {
     width: 125px;
     top: 80px;
     left: 550px;
-    background-color: white;
-    border: 1px solid rgb(49, 49, 49);
+    background-color: #12081A;
+    border: 1px solid #804A6E;
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
 }
@@ -170,8 +271,8 @@ body {
     width: 125px;
     top: 120px;
     left: 550px;
-    background-color: white;
-    border: 1px solid rgb(49, 49, 49);
+    background-color: #12081A;
+    border: 1px solid #804A6E;
     text-align: center;
     font-family: 'Simonetta', 'San-Serif';
 }
