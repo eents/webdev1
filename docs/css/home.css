@@ -1,7 +1,19 @@
+/* GENERAL */
+
 body {
     background-color: rgb(247, 238, 228);
     color: rgb(49, 49, 49);
 }
+
+/* HOME */
+
+#temp-home-asset-1 {
+    position: fixed;
+    top: 77px;
+    left: 707px;
+}
+
+/* MENU */
 
 #home-button {
     text-align: center;
@@ -42,6 +54,8 @@ body {
     background-color: rgb(247, 236, 222);
 }
 
+/* ABOUT */
+
 #about-space {
     position: fixed;
     top: 75px;
@@ -49,4 +63,115 @@ body {
     width: 500px;
     height: 500px;
     background-color: white;
+}
+
+#about-text-1 {
+    position: fixed;
+    top: 100px;
+    left: 610px;
+    font-family: 'Simonetta', 'Sans-Serif';
+    font-weight: 900;
+}
+
+#about-text-2 {
+    position: fixed;
+    width: 400px;
+    top: 150px;
+    left: 445px;
+    font-family: 'Simonetta', 'Sans-Serif';
+    font-weight: 400;
+}
+
+#about-photo {
+    position: fixed;
+    top: 250px;
+    left: 495px;
+}
+
+/* ASSIGNMENTS */
+
+#a1-link {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 40px;
+    left: 550px;
+    background-color: white;
+    border: 1px solid rgb(49, 49, 49);
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a2-link {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 80px;
+    left: 550px;
+    background-color: white;
+    border: 1px solid rgb(49, 49, 49);
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a3-link {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 120px;
+    left: 550px;
+    background-color: white;
+    border: 1px solid rgb(49, 49, 49);
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a4-link {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 160px;
+    left: 550px;
+    background-color: white;
+    border: 1px solid rgb(49, 49, 49);
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+/* ASSIGNMENT 02 */
+
+#a2-jumpoff-1 {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 40px;
+    left: 550px;
+    background-color: white;
+    border: 1px solid rgb(49, 49, 49);
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a2-jumpoff-2 {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 80px;
+    left: 550px;
+    background-color: white;
+    border: 1px solid rgb(49, 49, 49);
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a2-jumpoff-3 {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 120px;
+    left: 550px;
+    background-color: white;
+    border: 1px solid rgb(49, 49, 49);
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
 }
