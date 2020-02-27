@@ -1,0 +1,32 @@
+
+p {
+    display: block;
+    font-size: 50px;
+    align-content: center;
+    position: relative;
+    justify-content: center;
+}
+
+#wrapper {
+    padding: 20px;
+    background-color: darkcyan;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: flex;
+   
+}
+
+a {
+    display: flex;
+    width: 45%;
+    height: 10%;
+    margin: 2%;
+    position: relative;;
+    flex-wrap: wrap;
+}

@@ -214,6 +214,18 @@ body {
     font-family: 'Simonetta', 'San-Serif';
 }
 
+#a5-link {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 200px;
+    left: 550px;
+    background-color: #12081A;
+    border: 1px solid #804A6E;
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
 #temp-assignments-asset-1 {
     position: fixed;
     top: 140px;
@@ -270,6 +282,80 @@ body {
     height: 25px;
     width: 125px;
     top: 120px;
+    left: 550px;
+    background-color: #12081A;
+    border: 1px solid #804A6E;
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+/* ASSIGNMENT 05 */
+
+#a5-jumpoff-1 {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 40px;
+    left: 550px;
+    background-color: #12081A;
+    border: 1px solid #804A6E;
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a5-jumpoff-2 {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 80px;
+    left: 550px;
+    background-color: #12081A;
+    border: 1px solid #804A6E;
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a5-jumpoff-3 {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 120px;
+    left: 550px;
+    background-color: #12081A;
+    border: 1px solid #804A6E;
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a5-jumpoff-4 {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 160px;
+    left: 550px;
+    background-color: #12081A;
+    border: 1px solid #804A6E;
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a5-jumpoff-5 {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 200px;
+    left: 550px;
+    background-color: #12081A;
+    border: 1px solid #804A6E;
+    text-align: center;
+    font-family: 'Simonetta', 'San-Serif';
+}
+
+#a5-jumpoff-6 {
+    position: fixed;
+    height: 25px;
+    width: 125px;
+    top: 240px;
     left: 550px;
     background-color: #12081A;
     border: 1px solid #804A6E;
