@@ -2,8 +2,8 @@
     display: flex;
     background-color: thistle;
     margin: 0 auto;
-    width: 95%;
-    height: 900px;
+    width: 90%;
+    height: 150px;
     max-width: 700px;
     justify-content: center;
     align-content: center;
@@ -12,6 +12,8 @@
 
 .menuitem {
     margin: 10px;
+    height: 30px;
+    border: 1px solid darkgrey;
     background-color: white;
     font-size: 1.5em;
     flex-wrap: wrap;

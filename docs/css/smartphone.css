@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 25px;
+}
+
+.phone-row {
+border: 2px solid salmon;
+padding-top: 9px;
+display: flex;
+width: 250px;
+height: 61px;
+margin: 0 auto;
+
+}
+.phone-item:hover {
+    background-color: cyan;
+    transition-duration: 1s;
+}
+
+.phone-item {
+background-color: salmon;
+display: flex;
+justify-content: space-evenly;
+width: 50px;
+height: 50px;
+margin: 0 auto;
+}
+
+#phone-wrapper {
+border: 5px solid salmon;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 275px;
+height: 475px;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+justify-content: space-between;
+}
