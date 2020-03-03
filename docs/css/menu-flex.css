@@ -7,16 +7,16 @@
     max-width: 700px;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 
 }
 
 .menuitem {
     margin: 10px;
+    padding: 10px;
     height: 30px;
     border: 1px solid darkgrey;
     background-color: white;
-    font-size: 1.5em;
-    flex-wrap: wrap;
     display: flex;
 }
 

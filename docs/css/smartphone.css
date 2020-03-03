@@ -9,7 +9,7 @@ body {
 
 .phone-row {
 border: 2px solid salmon;
-padding-top: 9px;
+align-items: center;
 display: flex;
 width: 250px;
 height: 61px;

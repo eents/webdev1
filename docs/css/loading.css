@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin-top: 150px;
+}
+
+#container {
+    margin: 0 auto;
+    border: 3px solid salmon;
+    height: 100px;
+    width: 800px;
+}
+
+#bar {
+    animation-name: fill-bar;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    background-color: silver;
+    animation-timing-function: linear;
+}
+
+@keyframes fill-bar {
+    from {
+        height: 100px;
+        width: 5px;
+    }
+    
+    to {
+    height: 100px;
+    width: 800px;
+    }
+}
