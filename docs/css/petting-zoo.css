@@ -1,0 +1,83 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+ 
+   background-image: url(https://i.ibb.co/HrbZymz/ezgif-com-video-to-gif-1.gif);
+   background-size: cover;
+
+}
+
+#one {
+   position: absolute;
+   animation-name: one-animate;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+}
+
+#two {
+   position: absolute;
+   animation-name: two-animate;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+}
+
+#three {
+   position: absolute;
+   animation-name: three-animate;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+}
+
+@keyframes one-animate{
+   0%{
+      transform: translate(400px, 200px);
+   }
+   50%{
+      transform: translate(500px, 100px);
+   }
+   100%{
+      transform: translate(150px, 600px);
+   }
+}
+
+@keyframes two-animate{
+   0%{
+      transform: translate(15px, 511px);
+   }
+   20%{
+      transform: translate(300px, 100px);
+   }
+   80%{
+      transform: translate(900px, 311px);
+   }
+   100%{
+      transform: translate(150px, 444px);
+   }
+}
+
+@keyframes three-animate{
+   0%{
+      transform: translate(99px, 22px);
+   }
+   44%{
+      transform: translate(1px, 33px);
+   90%{
+      transform: translate:(444px, 88px);
+   }
+   }
+   100%{
+      transform: translate(799px, 511px);
+   }
+}
