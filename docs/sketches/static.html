@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s e c r e t</title>
+    <script src="../libs/p5.min.js"></script>
+    <link rel ="stylesheet" href="../sketches/eents.css">
+</head>
+<body>
+    
+<script>
+    function setup() {
+  createCanvas(1200, 625);
+  loadPixels();
+}
+
+function draw() {
+  for(let i = 0; i < pixels.length; i+=4) {
+    
+    pixels[i] = random(255);
+    pixels[i+1] = random(255);
+    pixels[i+2] = random(255);
+    pixels[i+3] = random(255);
+  }
+  
+  updatePixels();
+}
+</script>
+
+<div id="static-return-wrapper">
+    <a id="static-return-text" href="eents.html" style="text-decoration: none; color: black;">return</a>
+</div>
+
+</body>
+</html>
