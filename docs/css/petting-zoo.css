@@ -73,9 +73,9 @@ body {
    }
    44%{
       transform: translate(1px, 33px);
-   90%{
-      transform: translate:(444px, 88px);
    }
+   90%{
+      transform: translate(444px, 88px);
    }
    100%{
       transform: translate(799px, 511px);

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s e c r e t</title>
+    <script src="../libs/p5.min.js"></script>
+    <link rel ="stylesheet" href="../sketches/eents.css">
+</head>
+<body>
+    
+<script>
+function setup() {
+  createCanvas(1200, 650);
+}
+
+function draw() {
+  if (mouseIsPressed) {
+    fill(0);
+  } else {
+    fill(255);
+  }
+  triangle(mouseX, mouseY, 1, 1);
+}
+</script>
+<div id="rays-return-wrapper">
+<a id="rays-text" href="eents.html" style="text-decoration: none; color: #000;">return</a>
+</div>
+</body>
+</html>
