@@ -163,15 +163,15 @@
     }
     }
 
-    #ft-text{
-        font-family: 'Noto Sans TC', sans-serif;
-        font-size: 1em;
-        font-weight: 400;
-        margin: 2px;
-    }
+#ft-text{
+font-family: 'Noto Sans TC', sans-serif;
+font-size: 1em;
+font-weight: 400;
+margin: 2px;
+}
 
 #ft-text-wrapper{
-    position: fixed;
+    position: absolute;
     top: 11px;
     left: 55px;
 
@@ -258,4 +258,78 @@ transition-duration: .6s;
     100%{
         transform: translate(550px, 145px);
     }
+ }
+ 
+ #spin-return{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+        margin: 2px;
     }
+
+    #spin-return-wrapper{
+        position: absolute;
+        top: 7px;
+        left: 11px;
+    }
+
+#spin-link{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.25em;
+    font-weight: 900;
+    margin: 2px;
+}
+
+#spin-link-wrapper{
+    position: absolute;
+    border: 4px solid olive;
+    animation-name: spin-animate;
+    animation-duration: 100s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.63,1.14,1,.43);
+    z-index: -1;
+}
+
+#spin-link-wrapper:hover{
+    background-color: olive;
+    transition-duration: .6s;
+}
+
+@keyframes spin-animate{
+    0%{
+        transform: translate(300px, 55px);
+    }
+    18%{
+        transform: translate(111px, 308px);
+    }
+    29%{
+        transform: translate(30px, 800px);
+    }
+    32%{
+        transform: translate(280px, 511px);
+    }
+    47%{
+        transform: translate(308px, 880px);
+    }
+    59%{
+        transform: translate(20px, 401px);
+    }
+    63%{
+        transform: translate(87px, 249px);
+    }
+    71%{
+        transform: translate(1000px, 373px);
+    }
+    86%{
+        transform: translate(609px, 179px);
+    }
+    90%{
+        transform: translate(609px, 260px)
+    }
+    100%{
+        transform: translate(575px, 190px);
+    }
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s e c r e t</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400;900&display=swap" rel="stylesheet">
+    <script src="../libs/p5.min.js"></script>
+    <link rel="stylesheet" href="../sketches/eents.css">
+</head>
+<body>
+    <script>
+        // Original code from byxor on stackoverflow (byxor.github.io) (https://stackoverflow.com/questions/37240287/can-i-create-multiple-canvas-elements-on-same-page-using-p5js/38771816)
+// Edited for clarity
+
+var leftBuffer;
+var middleBuffer;
+var rightBuffer;
+
+function setup() {
+    // Make sure canvas is appropriate size for all desired elements combined.
+    createCanvas(1225, 700, WEBGL);
+    // create 'buffers' for each element.
+    leftBuffer = createGraphics(400, 400);
+    middleBuffer = createGraphics(400, 400);
+    rightBuffer = createGraphics(400, 400);
+}
+
+function draw() {
+    drawLeftBuffer();
+    drawMiddleBuffer();
+    drawRightBuffer();
+    // declare element position on the canvas.
+    image(leftBuffer, 0, 0);
+    image(middleBuffer, 400, 0);
+    image(rightBuffer, 800, 0);
+}
+
+function drawLeftBuffer() {
+    leftBuffer.background(0, 0, 0);
+    rotateY(frameCount * 0.05);
+    fill(5, 252, 5, 100);
+    cone(100,100);
+    rotateX(frameCount * 0.15);
+    rotateZ(frameCount * 0.01);
+}
+
+function drawMiddleBuffer() {
+    middleBuffer.background(0, 0, 0);
+}
+
+function drawRightBuffer() {
+    rightBuffer.background(255, 100, 255, 5);
+}
+
+//function setup() {
+//  createCanvas(100, 100, WEBGL);
+//}
+//
+//function draw() {
+//  background(200);
+//  rotateX(frameCount * 0.01);
+//  rotateZ(frameCount * 0.01);
+//  cone(40, 70);
+//}
+    </script>
+
+    <div id="spin-return-wrapper">
+    <a id="spin-return" href="eents.html" style="text-decoration: none; color: white;">return</a>
+    </div>
+</body>
+</html>
