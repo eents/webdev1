@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s e c r e t</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400;900&display=swap" rel="stylesheet">
+    <script src="../libs/p5.min.js"></script>
+    <link rel="stylesheet" href="../sketches/eents.css">
+</head>
+<body>
+    
+<script>
+    // Original code adapted from byxor on stackoverflow (byxor.github.io) (https://stackoverflow.com/questions/37240287/can-i-create-multiple-canvas-elements-on-same-page-using-p5js/38771816)
+
+let img1;
+let img2;
+let img3;
+let img4;
+let img5;
+let img6;
+let img7;
+let img8;
+let img9;
+
+function preload() {
+    //Albania
+  img1 = loadImage('https://i.ibb.co/yBdFv0w/Albania.png');
+    //Estonia
+  img2 = loadImage('https://i.ibb.co/VV1tgY3/Estonia.png');
+    //Egypt
+  img3 = loadImage('https://i.ibb.co/x7cFSdC/Egypt.png');
+    //Laos
+  img4 = loadImage('https://i.ibb.co/sQgp9Jf/Laos.png');
+    //Iran
+  img5 = loadImage('https://i.ibb.co/bLFLwJP/Iran.png');
+    //Australia
+  img6 = loadImage('https://i.ibb.co/3Ssc07t/Australia.png');
+    //China
+  img7 = loadImage('https://i.ibb.co/KxGLDBK/China-Shenzhen.png');
+    //Argentina
+  img8 = loadImage('https://i.ibb.co/jWyv2RK/Argentina.png');
+    //India
+  img9 = loadImage('https://i.ibb.co/YtPLhLN/India.png');
+}
+
+var leftBuffer1;
+var middleBuffer1;
+var rightBuffer1;
+var leftBuffer2;
+var middleBuffer2;
+var rightBuffer2;
+var leftBuffer3;
+var middleBuffer3;
+var rightBuffer3;
+
+function setup() {
+    // Make sure canvas is appropriate size for all desired elements combined.
+    createCanvas(1200, 1200);
+    // create 'buffers' for each element.
+    leftBuffer1 = createGraphics(400, 400, WEBGL);
+    middleBuffer1 = createGraphics(400, 400, WEBGL);
+    rightBuffer1 = createGraphics(400, 400, WEBGL);
+    leftBuffer2 = createGraphics(400, 400, WEBGL);
+    middleBuffer2 = createGraphics(400, 400, WEBGL);
+    rightBuffer2 = createGraphics(400, 400, WEBGL);
+    leftBuffer3 = createGraphics(400, 400, WEBGL);
+    middleBuffer3 = createGraphics(400, 400, WEBGL);
+    rightBuffer3 = createGraphics(400, 400, WEBGL);
+}
+
+function draw() {
+    drawLeftBuffer1();
+    drawMiddleBuffer1();
+    drawRightBuffer1();
+    drawLeftBuffer2();
+    drawMiddleBuffer2();
+    drawRightBuffer2();
+    drawLeftBuffer3();
+    drawMiddleBuffer3();
+    drawRightBuffer3();
+    // declare element position on the canvas.
+    image(leftBuffer1, 0, 0);
+    image(middleBuffer1, 400, 0);
+    image(rightBuffer1, 800, 0);
+    image(leftBuffer2, 0, 400);
+    image(middleBuffer2, 400, 400);
+    image(rightBuffer2, 800, 400);
+    image(leftBuffer3, 0, 800);
+    image(middleBuffer3, 400, 800);
+    image(rightBuffer3, 800, 800);
+}
+
+function drawLeftBuffer1() {
+    leftBuffer1.clear();
+    leftBuffer1.background(100);
+    let lb1 = leftBuffer1.box(150, 150);
+    lb1.noStroke();
+    lb1.normalMaterial();
+    lb1.texture(img1);
+    lb1.rotateX(.004);
+    lb1.rotateY(.002);
+    lb1.rotateZ(.003);
+}
+
+function drawMiddleBuffer1() {
+    middleBuffer1.clear();
+    middleBuffer1.background(200);
+    let mb1 = middleBuffer1.box(150, 150);
+    mb1.normalMaterial();
+    mb1.texture(img2);
+    mb1.rotateX(.005);
+    mb1.rotateY(.006);
+    mb1.rotateZ(.009);
+}
+
+function drawRightBuffer1() {
+    rightBuffer1.clear();
+    rightBuffer1.background(0);
+    let rb1 = rightBuffer1.box(150, 150);
+    rb1.normalMaterial();
+    rb1.texture(img3);
+    rb1.rotateX(.003);
+    rb1.rotateY(.005);
+    rb1.rotateZ(.004);
+}
+
+function drawLeftBuffer2() {
+    leftBuffer2.clear();
+    leftBuffer2.background(100);
+    let lb2 = leftBuffer2.box(150, 150);
+    lb2.normalMaterial();
+    lb2.texture(img4);
+    lb2.rotateX(.010);
+    lb2.rotateY(.007);
+    lb2.rotateZ(.006);
+}
+
+function drawMiddleBuffer2() {
+    middleBuffer2.clear();
+    middleBuffer2.background(200);
+    let mb2 = middleBuffer2.box(150, 150);
+    mb2.normalMaterial();
+    mb2.texture(img5);
+    mb2.rotateX(.006);
+    mb2.rotateY(.008);
+    mb2.rotateZ(.004);
+}
+
+function drawRightBuffer2() {
+    rightBuffer2.clear();
+    rightBuffer2.background(0);
+    let rb2 = rightBuffer2.box(150, 150);
+    rb2.normalMaterial();
+    rb2.texture(img6);
+    rb2.rotateX(.008);
+    rb2.rotateY(.003);
+    rb2.rotateZ(.008);
+}
+
+function drawLeftBuffer3() {
+    leftBuffer3.clear();
+    leftBuffer3.background(100);
+    let lb3 = leftBuffer3.box(150, 150);
+    lb3.normalMaterial();
+    lb3.texture(img7);
+    lb3.rotateX(.005);
+    lb3.rotateY(.002);
+    lb3.rotateZ(.006);
+}
+
+function drawMiddleBuffer3() {
+    middleBuffer3.clear();
+    middleBuffer3.background(200);
+    let mb3 = middleBuffer3.box(150, 150);
+    mb3.normalMaterial();
+    mb3.texture(img8);
+    mb3.rotateX(.006);
+    mb3.rotateY(.007);
+    mb3.rotateZ(.002);
+}
+
+function drawRightBuffer3() {
+    rightBuffer3.clear();
+    rightBuffer3.background(0);
+    let rb3 = rightBuffer3.box(150, 150);
+    rb3.normalMaterial();
+    rb3.texture(img9);
+    rb3.rotateX(.008);
+    rb3.rotateY(.004);
+    rb3.rotateZ(.006);
+}
+</script>
+
+<div id="earth-return-wrapper">
+    <a id="earth-return" href="eents.html" style="text-decoration: none; color: white;">return</a>
+</div>
+
+</body>
+</html>
