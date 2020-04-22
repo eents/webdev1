@@ -486,6 +486,6 @@ transition-duration: .6s;
         transform: translate(701px, 222px)
     }
     100%{
-        transform: translate(650px, 280px);
+        transform: translate(670px, 280px);
     }
 }
