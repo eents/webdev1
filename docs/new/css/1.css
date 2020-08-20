@@ -1,0 +1,72 @@
+* {
+margin: 0px;
+padding: 0px;
+background-color: black;
+}
+
+#body-all {
+    width: 100%;
+}
+
+/* DIAMOND HTML ELEMENTS */
+
+#diamond-1 {
+    position: absolute;
+    top: 11%;
+    left: 1%;  
+}
+
+#diamond-2 {
+    position: absolute;
+    top: 22%;
+    left: 51%;  
+}
+
+#diamond-3 {
+    position: absolute;
+    top: 35%;
+    left: 31%;  
+}
+
+#diamond-4 {
+    position: absolute;
+    top: 58%;
+    left: 20%;  
+}
+
+#diamond-5 {
+    position: absolute;
+    top: 70%;
+    left: 61%;  
+}
+
+#diamond-6 {
+    position: absolute;
+    top: 90%;
+    left: 11%;  
+}
+
+/* DIAMOND GIF ELEMENTS */
+#diamond-1-gif {
+    width: 120px;
+}
+
+#diamond-2-gif {
+    width: 120px;
+}
+
+#diamond-3-gif {
+    width: 120px;
+}
+
+#diamond-4-gif {
+    width: 120px;
+}
+
+#diamond-5-gif {
+    width: 120px;
+}
+
+#diamond-6-gif {
+    width: 120px;
+}
