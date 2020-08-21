@@ -42,7 +42,7 @@ background-color: black;
 
 #diamond-6 {
     position: absolute;
-    top: 90%;
+    top: 91%;
     left: 11%;  
 }
 
@@ -69,4 +69,18 @@ background-color: black;
 
 #diamond-6-gif {
     width: 120px;
+}
+
+/* TITLES */
+
+#title-1 {
+    position: absolute;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    padding: 2px;
+    top: 2%;
+    right: 15%;
 }
