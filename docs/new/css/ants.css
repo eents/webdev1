@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: whitesmoke;
+    text-decoration: none;
+    text-emphasis: bold;
+    font-weight: 900;
+    justify-content: center;
+}
+
+#content-body {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+#nav {
+    position: absolute;
+    justify-content: center;
+    border: 3px solid black;
+    display: flex;
+    width: 10%;
+    top: 7%;
+    left: 11%;
+    font-size: 1em;
+}
+
+#img1 {
+    position: absolute;
+    display: flex;
+    top: 10%;
+    right: 9%;
+    width: 75%;
+    height: auto;
+    z-index: -1;
+}
+
+#text1 {
+    font-weight: 700;
+    font-size: 1em;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    padding: 5px;
+    top: 43%;
+    left: 5%;
+    text-decoration: underline;
+}
+
+#img2 {
+    position: absolute;
+    display: flex;
+    top: 52%;
+    left: 5%;
+    width: 59%;
+    height: auto;
+    z-index: -1;
+}
+
+#text2 {
+    font-weight: 700;
+    font-size: .75em;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    width: 30%;
+    padding: 2px;
+    top: 60%;
+    right: 8%;
+    
+}
+
+#text3 {
+    font-weight: 700;
+    font-size: .75em;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    width: 30%;
+    padding: 2px;
+    top: 75%;
+    right: 12%;
+    
+}
+
+#img3 {
+    position: absolute;
+    display: flex;
+    top: 102%;
+    width: 90%;
+    height: auto;
+    z-index: -1;
+    left: 50%;
+    margin-left: -45%;
+}
+
+#text4 {
+    font-weight: 700;
+    font-size: .6em;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 25%;
+    padding: 2px;
+    left: 37.5%;
+    top: 154%;
+    margin-bottom: 15px;
+}
