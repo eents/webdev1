@@ -113,11 +113,12 @@
 }
 
 #bg1 {
+    background-color: transparent;
     position: absolute;
     display: flex;
     width: 100%;
     height: auto;
-    z-index: -3;
+    z-index: -2;
 }
 
 #bg2 {
@@ -125,6 +126,14 @@
     display: flex;
     width: 100%;
     height: auto;
-    z-index: -3;
+    z-index: -2;
     top: 100%;
+}
+
+#bg3 {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    z-index: -3;
 }
